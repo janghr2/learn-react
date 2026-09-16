@@ -32,14 +32,14 @@ console.log("🚀 ~ App ~ second:", second)
     <div className="App">
       Hello world
       <Greeting />
-      <Greeting />
+      {/* <Greeting /> */}
 
         {/* card 컴포턴트 만들고, 이 자리에 호출  */}
+      {/* <Card />
       <Card />
       <Card />
       <Card />
-      <Card />
-
+ */}
 
     </div>    
   )
