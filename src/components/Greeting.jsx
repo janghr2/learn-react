@@ -12,6 +12,7 @@ const [username, setUsername] = useState ("")
 // username = window.propt("당신의 이름을 입력하세요.")
   // 수정할 값을 인자로 넣어서 스테이트 업데이트
     setUsername(window.prompt("당신의 이름을 입력하세요"))
+    console.log("🚀 ~ handleClick ~ username:", username)
   }
 
 
